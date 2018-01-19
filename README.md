@@ -7,7 +7,8 @@ Sous Windows, la configuration d'Eclipse s'effectue depuis : __Window__ / __Pref
 ### Modification de l'indentation
 
 - Aller dans Java / Code Style / Formatter : Cliquer sur __Edit...__
-- Dans l'onglet __Indentation__ / partie __General settings__ / Sélectionner __Spaces only__ pour __Tab Policy__.
+- Dans l'onglet __Indentation__ / partie __General settings__ / Sélectionner __Spaces only__ pour __Tab Policy__
+- Dans l'onglet __Line Wrapping__ / partie __Settings for arguments__ / Sélectionner _Wrap all elements, every element on a new line_ pour __Line wrapping policy__
 
 ### Activer et configurer les Save Actions
 
