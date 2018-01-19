@@ -80,3 +80,8 @@ __Installation__ :
 - Aller dans __Help__ / __Install New Software__
 - Ajouter l'url `https://github.com/henri5/completeline-updatesite/raw/master/`
 
+### JAutodoc
+
+> Génère automatiquement la document des méthodes en fonction de la signature
+
+[Marketplace](http://marketplace.eclipse.org/content/jautodoc)
