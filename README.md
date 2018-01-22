@@ -1,5 +1,11 @@
 # Outils et configuration pour Eclipse
 
+## Rechercher tout ce que l'on veut
+
+Accès à la barre QuickAccess (_si cette dernière est Hide, une popup la remplacera_)
+
+__Ctrl+3__ (numpad)
+
 ## Configuration d'Eclipse
 
 Sous Windows, la configuration d'Eclipse s'effectue depuis : __Window__ / __Preferences__
