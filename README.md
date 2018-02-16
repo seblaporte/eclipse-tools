@@ -26,6 +26,24 @@ Sous Windows, la configuration d'Eclipse s'effectue depuis : __Window__ / __Pref
     - Cocher _Remove unnecessary casts_
     - Cocher _Remove redundant type arguments (1.7 or higher)_
 
+### Visualiser l'utilisation mémoire d'Eclipse
+
+Visualisation de l'utilisation mémoire, dans les préférences : __General__ / cocher __Show heap status__
+
+### Modification de la couleur de surlignage des occurences (jaune souvent trop peu visible)
+
+__General__ / __Editors__ > __Text Editors__ > __Annotations__ / dans __Annotation types__, Sélectionner __Occurences__ sur la droite __Color__
+
+## La vue Package Explorer
+
+La vue Package Explorer remplace avantageusement la vue Projet Explorer, par défaut à gauche. Elle permet de classifier les projets dans des Java Working Set
+
+Pour l'ajouter : __Window__ / __Show view__ / __Other ...__ / __Package Explorer__
+
+La petite flèche en haut à droite de la vue permet de mettre les Working Sets comme éléments racines : __Top Level Elements__ / __Working Sets__
+
+Pour ajouter un Working Set : __File__ / __New__ / __Other ...__ / __Java Working Set__
+
 ## Snippets Oracle SQL
 
 > Requiert l'installation du plugin __SQL Developement Tools__ (Voir ci-dessous)
@@ -46,13 +64,21 @@ Sous Windows, la configuration d'Eclipse s'effectue depuis : __Window__ / __Pref
 
 ## Plugins indispensables
 
+### Subversive
+
+SubVersive est un plugin qui permet de brancher votre gestionnaire de sources (Git ou SVN) à Eclipse, et donc de gérer directement vos update, commit, revert, conflits, etc. dans Eclipse. Il comprend aussi une perspective de synchronisation.
+
+Se rendre à la perspective de synchronisation : __Window__ / __Perspective__ / __Open Perspective__ / __Other ...__ / __Team Synchronizing__
+
+[Marketplace](https://marketplace.eclipse.org/content/subversive-svn-team-provider)
+
 ### EclEmma Java Code Coverage
 
 > Anaylse de couverture de code intégré à Eclipse
 
 [Marketplace](http://marketplace.eclipse.org/content/eclemma-java-code-coverage)
 
-- Ajouter la vue : __Windows__ / __Show view__ / __Other ...__ / __Coverage__
+- Ajouter la vue : __Window__ / __Show view__ / __Other ...__ / __Coverage__
 - Configurer l'analyse :
 	* Clique droit sur le projet : __Coverage As__ / __Coverage Configurations...__
 	* Nouvelle configuration Junit :
