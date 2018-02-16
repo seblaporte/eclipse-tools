@@ -32,11 +32,11 @@ Visualisation de l'utilisation mémoire, dans les préférences : __General__ / 
 
 ### Modification de la couleur de surlignage des occurences (jaune souvent trop peu visible)
 
-__General__ / __Editors__ > __Text Editors__ > __Annotations__ / dans __Annotation types__, Sélectionner __Occurences__ sur la droite __Color__
+__General__ / __Editors__ / __Text Editors__ / __Annotations__ / dans __Annotation types__ / Sélectionner __Occurences__ / sur la droite __Color__
 
 ## La vue Package Explorer
 
-La vue Package Explorer remplace avantageusement la vue Projet Explorer, par défaut à gauche. Elle permet de classifier les projets dans des Java Working Set
+La vue Package Explorer remplace avantageusement la vue Projet Explorer, par défaut à gauche. Elle permet de classifier les projets dans des Java Working Sets
 
 Pour l'ajouter : __Window__ / __Show view__ / __Other ...__ / __Package Explorer__
 
